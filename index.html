@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Ali-assignment</title>
+</head>
+<body bgcolor="lightYellow">
+    <center>
+        <button>
+            <a href="/chapter9-11">chapter9-11</a>
+        </button>
+    </center>
+    <center>
+        <button>
+            <a href="/">Home</a>
+        </button>
+    </center>
+    <!-- Program 1: Check character type -->
+    <div class="section">
+        <h2>1. Check Character Type (Number, Uppercase, Lowercase)</h2>
+        <input type="text" id="charInput" placeholder="Enter a single character">
+        <button onclick="checkCharacter()">Check</button>
+        <p class="output" id="charOutput"></p>
+    </div>
+
+    <!-- Program 2: Compare two integers -->
+    <div class="section">
+        <h2>2. Compare Two Integers</h2>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button onclick="compareNumbers()">Compare</button>
+        <p class="output" id="compareOutput"></p>
+    </div>
+
+    <!-- Program 3: Check number sign -->
+    <div class="section">
+        <h2>3. Check Number (Positive, Negative, Zero)</h2>
+        <input type="number" id="numberInput" placeholder="Enter a number">
+        <button onclick="checkNumberSign()">Check</button>
+        <p class="output" id="numberOutput"></p>
+    </div>
+
+    <!-- Program 4: Check if character is vowel -->
+    <div class="section">
+        <h2>4. Check if Character is Vowel</h2>
+        <input type="text" id="vowelInput" placeholder="Enter a single character">
+        <button onclick="checkVowel()">Check</button>
+        <p class="output" id="vowelOutput"></p>
+    </div>
+
+    <!-- Program 5: Password validation -->
+    <div class="section">
+        <h2>5. Password Validation</h2>
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <button onclick="validatePassword()">Validate</button>
+        <p class="output" id="passwordOutput"></p>
+    </div>
+
+    <!-- Program 6: Fix greeting program -->
+    <div class="section">
+        <h2>6. Fixed Greeting Program</h2>
+        <p>Hour is set to 13 (1 PM). Click to see greeting.</p>
+        <button onclick="showGreeting()">Show Greeting</button>
+        <p class="output" id="greetingOutput"></p>
+    </div>
+
+    <!-- Program 7: Convert 24-hour time to greeting -->
+    <div class="section">
+        <h2>7. Time-Based Greeting (24-hour format)</h2>
+        <input type="text" id="timeInput" placeholder="Enter time (e.g., 1900)">
+        <button onclick="timeGreeting()">Get Greeting</button>
+        <p class="output" id="timeOutput"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
